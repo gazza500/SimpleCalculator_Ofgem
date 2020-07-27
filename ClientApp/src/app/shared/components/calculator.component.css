@@ -1,0 +1,43 @@
+
+.calculator {
+  margin: 20px auto;
+  padding: 10px;
+  border: black solid 2px;
+  text-align: center;
+  width: 300px;
+  height: 405px;
+  background: lightblue;
+}
+
+.numfield {
+  margin: 10px auto;
+  width: 190px;
+  height: 30px;
+  border: black inset 1px;
+  font-family: "arial", serif;
+  font-size: 20px;
+  background: beige;
+}
+
+#result_field {
+  cursor: default;
+}
+
+.btn {
+  margin: 5px;
+  width: 90px;
+  height: 80px;
+  font-family: "arial", serif;
+  font-size: 50px;
+  border: black inset 1px;
+  background: lightgray;
+}
+
+hr {
+  border: none;
+  width: 190px;
+  height: 1px;
+  background-color: black;
+}
+
+

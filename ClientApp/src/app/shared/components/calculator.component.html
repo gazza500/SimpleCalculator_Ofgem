@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="calculator">
+    <p class="result_field">{{ result }}</p>
+    <hr>
+
+<input class="numfield" (input)='valuea = $event.target.value'>
+<input class="numfield" (input)='valueb = $event.target.value'>
+
+    <div>
+      <button class="btn" (click)="plus()">+</button>
+      <button class="btn" (click)="minus()">-</button>
+    </div>
+
+    <div>
+      <button class="btn" (click)="divide()">/</button>
+      <button class="btn" (click)="times()">*</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
